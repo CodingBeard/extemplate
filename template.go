@@ -173,8 +173,6 @@ func (x *Extemplate) Parse() error {
 	var b []byte
 	var err error
 
-	log.Println(x.templatefiles)
-
 	// parse all non-child templates into the shared template namespace
 	for name, tf := range x.templatefiles {
 		if tf.layout != "" {
