@@ -14,7 +14,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-	"log"
 )
 
 var extendsRegex *regexp.Regexp
